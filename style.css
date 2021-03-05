@@ -1,0 +1,72 @@
+:root{
+    --main-bg-color:#293462;
+    --main-taza-color:#FFF1C1;
+    --main-detalle-color:#FE5F55;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.taza {
+    width: 600px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 120px auto 120px;
+}
+
+.oreja-izq, .oreja-der {
+    height: 90px;
+    border: 20px solid var(--main-taza-color);
+}
+
+.oreja-izq {
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-right: none
+}
+
+.taza-interna {
+    background-color: var(--main-taza-color);
+    border-bottom-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    position: relative;
+}
+
+.oreja-der {
+    border-left: none;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.raya-1, .raya-2, .circulo {
+    position: absolute;
+}
+
+.raya-1, .raya-2 {
+    width: 100px;
+    height: 20px;
+    background-color: var(--main-detalle-color);
+    border-radius: 20px;
+    left: 40px;
+}
+
+.raya-1 {
+    top: 40px;
+}
+
+.raya-2 {
+    top: 80px;
+}
+
+.circulo {
+    width: 110px;
+    height: 110px;
+    left: 210px;
+    top: 110px;
+    background-color: var(--main-detalle-color);
+    border-radius: 50%;
+}

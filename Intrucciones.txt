@@ -1,0 +1,21 @@
+Guía de Estilos
+
+Detalles de los colores están creados en las variables CSS, mira el archivo "style.css".
+
+/*Global*/
+/* Propiedades Personalizadas */
+:root{
+    --main-bg-color:#293462;
+    --main-taza-color:#FFF1C1;
+    --main-detalle-color:#FE5F55;
+}
+La imagen "resultado_final.png" es la referencia visual de cómo debe quedar al final el proyecto.
+El dibujo del proyecto tiene un tamaño apróximado de 600px de ancho por 250px de alto.
+El borde y los detalles de la taza están en 20px.
+Las líneas y el círculo están en 100px de ancho.
+
+
+Si tienes dudas adiconales me puedes contactar a: jair@cooltimedia.com
+
+Gracias por participar.
+Te deseamos los mejor.
